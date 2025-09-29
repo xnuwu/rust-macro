@@ -1,0 +1,6 @@
+[workspace]
+resolver = "3"
+members = [
+    "macros",     # 库 crate，定义宏
+    "app",        # 二进制 crate，使用宏
+]
